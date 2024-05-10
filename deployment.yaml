@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dotnet-kubernet-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: dotnetk8-app
+  template:
+    metadata:
+      name: dotnetk8
+      labels:
+        app: dotnetk8-app
+    spec:
+      containers:
+        - name: dotnetk8-app
+          image: sohel10h/dotnetk8:v1
+          ports:
+            - containerPort: 8080
+              name: http-web-api
+          resources:
+            limits:
+              cpu: 200m
+              memory: 200Mi
+            requests:
+              cpu: 100m
+              memory: 100Mi
+          env:
+            - name: ASP.NETCORE_URLS
+              value: http://+80

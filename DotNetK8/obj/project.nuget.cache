@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "3mXgvqsAUkioQJe9uEY+W/mHDpR2NQdMz8sMhilUK/S1XZ2Xw+WvqvQDElJNQSrxAjA0WVZZn0DWZIesaoBx0Q==",
+  "success": true,
+  "projectFilePath": "/Users/sohel10h/Documents/Projects/K8/DotNetK8/DotNetK8/DotNetK8.csproj",
+  "expectedPackageFiles": [
+    "/Users/sohel10h/.nuget/packages/microsoft.aspnetcore.openapi/7.0.18/microsoft.aspnetcore.openapi.7.0.18.nupkg.sha512",
+    "/Users/sohel10h/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/sohel10h/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/sohel10h/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/sohel10h/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/sohel10h/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/sohel10h/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
